@@ -1,0 +1,7 @@
+! Title: Remove tracking URL parameters from links
+! Expires: 1 day
+! Description: Filter to block tracking parameters in urls.
+*$removeparam=utm_source
+*$removeparam=utm_medium
+*$removeparam=utm_campaign
+*$removeparam=utm_content
